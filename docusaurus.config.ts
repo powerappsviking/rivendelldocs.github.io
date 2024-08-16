@@ -15,8 +15,10 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Rivendell ', // Usually your GitHub org/user name.
+  organizationName: 'Rivendell', // Usually your GitHub org/user name.
   projectName: 'RivendellDocs', // Usually your repo name.
+  deploymentBranch: 'rivendelldocs'
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
