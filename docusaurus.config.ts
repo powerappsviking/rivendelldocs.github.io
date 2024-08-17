@@ -23,6 +23,9 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   USE_SSH: "true",
+  GIT_USER: "Powerappsviking",
+
+
   
 
   // Even if you don't use internationalization, you can use this field to set
