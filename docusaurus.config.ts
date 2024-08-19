@@ -24,7 +24,7 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
   USE_SSH: "true",
   GIT_USER: "Powerappsviking",
-
+  GIT_PASS: ""
 
   
 
