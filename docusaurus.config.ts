@@ -11,11 +11,11 @@ const config: Config = {
   url: 'https://powerappsviking.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/rivendelldocs.github.io',
+  baseUrl: 'rivendelldocs.github.io',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Powerappsviking', // Usually your GitHub org/user name.
+  organizationName: 'powerappsviking', // Usually your GitHub org/user name.
   projectName: 'RivendellDocs.github.io', // Usually your repo name.
   deploymentBranch: 'rivendelldocs.github.io',
   trailingSlash: false,
@@ -25,7 +25,6 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
 
 
-  //GIT_PASS: ""
 
   
 
