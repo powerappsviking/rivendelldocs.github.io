@@ -20,11 +20,18 @@ const config: Config = {
   deploymentBranch: 'rivendelldocs.github.io',
   trailingSlash: false,
 
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  USE_SSH: "true",
-  GIT_USER: "Powerappsviking",
-  GIT_PASS: ""
+
+  customfields: {
+    USE_SSH: "true",
+    GIT_USER: "Powerappsviking",
+    CURRENT_BRANCH: "main",
+    GIT_USER_NAME: "powerappsviking",
+    GIT_USER_EMAIL: "slw@projectum.com",
+  },
+  //GIT_PASS: ""
 
   
 
