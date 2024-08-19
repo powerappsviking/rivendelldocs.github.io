@@ -24,15 +24,7 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  customfields: {
-    //USE_SSH: "true",
-    GIT_USER: "powerappsviking",
-    CURRENT_BRANCH: "main",
-    GIT_USER_NAME: "powerappsviking",
-    GIT_USER_EMAIL: "slw@projectum.com",
-    GIT_PASS: "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",
 
-  },
   //GIT_PASS: ""
 
   
@@ -154,4 +146,14 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-export default config;
+export default 
+{
+customfields: {
+  USE_SSH: "true",
+  GIT_USER: "powerappsviking",
+  CURRENT_BRANCH: "main",
+  GIT_USER_NAME: "powerappsviking",
+  GIT_USER_EMAIL: "slw@projectum.com",
+  GIT_PASS: "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",
+},
+};
