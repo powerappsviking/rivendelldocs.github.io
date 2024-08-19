@@ -26,7 +26,7 @@ const config: Config = {
 
   customfields: {
     USE_SSH: "true",
-    GIT_USER: "Powerappsviking",
+    GIT_USER: "powerappsviking",
     CURRENT_BRANCH: "main",
     GIT_USER_NAME: "powerappsviking",
     GIT_USER_EMAIL: "slw@projectum.com",
