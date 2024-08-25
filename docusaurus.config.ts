@@ -11,14 +11,14 @@ const config: Config = {
   url: 'https://powerappsviking.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'rivendelldocs.github.io',
+  baseUrl: '/rivendelldocs.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'powerappsviking', // Usually your GitHub org/user name.
-  projectName: 'RivendellDocs.github.io', // Usually your repo name.
+  projectName: 'rivendellDocs.github.io', // Usually your repo name.
   deploymentBranch: 'rivendelldocs.github.io',
-  trailingSlash: false,
+  // trailingSlash: false,
  
 //   USE_SSH: "true",
 //   GIT_USER: "powerappsviking",
@@ -41,13 +41,13 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  module.exports = {
+ // module.exports = {
     // Other configurations...
-    url: 'https://powerappsviking.github.io',
-    baseUrl: '/rivendelldocs.github.io/',
-    projectName: 'rivendelldocs.github.io',
-    organizationName: 'powerappsviking',
-  },
+   // url: 'https://powerappsviking.github.io',
+    //baseUrl: '/rivendelldocs.github.io/',
+    //projectName: 'rivendelldocs.github.io',
+    //organizationName: 'powerappsviking',
+  //},
   presets: [
     [
       'classic',
