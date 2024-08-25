@@ -19,13 +19,7 @@ const config: Config = {
   projectName: 'RivendellDocs.github.io', // Usually your repo name.
   deploymentBranch: 'rivendelldocs.github.io',
   trailingSlash: false,
-  module.exports = {
-    // Other configurations...
-    url: 'https://powerappsviking.github.io',
-    baseUrl: '/rivendelldocs.github.io/',
-    projectName: 'rivendelldocs.github.io',
-    organizationName: 'powerappsviking',
-  }; 
+ 
 //   USE_SSH: "true",
 //   GIT_USER: "powerappsviking",
 //   CURRENT_BRANCH: "main",
@@ -47,7 +41,13 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  module.exports = {
+    // Other configurations...
+    url: 'https://powerappsviking.github.io',
+    baseUrl: '/rivendelldocs.github.io/',
+    projectName: 'rivendelldocs.github.io',
+    organizationName: 'powerappsviking',
+  },
   presets: [
     [
       'classic',
